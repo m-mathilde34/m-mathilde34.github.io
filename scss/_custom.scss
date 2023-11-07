@@ -1,7 +1,8 @@
 // MY THEME COLOURS
-$my_primary: #A7727D;
+$my_primary: #F9F5E7;
 $my_secondary: #EDDBC7;
 $my_secondary_light: #F8EAD8;
+$my_tertiary: #A7727D;
 
 // WHITE AND GREY COLOURS
 $white:    #fff;
@@ -18,6 +19,8 @@ $black:    #000;
 
 $primary:       $my_primary;
 $secondary:     $my_secondary;
+$secondary-light: $my_secondary_light;
+$tertiary: $my_tertiary;
 
 //IMPORT BOOTSTRAP 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

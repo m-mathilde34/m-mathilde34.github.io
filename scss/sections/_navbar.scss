@@ -1,0 +1,39 @@
+@use '../custom' as *;
+
+body{
+    background-color: $primary;
+}
+
+.menu{
+    background-color: $primary;
+    // padding-bottom: 0.5rem;
+    border-bottom: 4px solid $secondary-light;
+
+    a{
+        color: $tertiary;
+        font-family: 'Dancing Script', cursive;
+        font-size: 400%;
+    }
+
+    a:hover{
+        color: $tertiary;
+    }
+
+    li{
+        padding: 0 0.3rem;
+        
+        a{
+            color: $secondary;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .active{
+            color: $tertiary !important;
+        }
+
+    }
+
+}
