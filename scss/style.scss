@@ -1,1 +1,12 @@
 @use 'custom';
+
+//IMPORT COMPONENTS
+@use 'components/mixins';
+@use 'components/typography';
+
+//IMPORT SECTIONS
+@use 'sections/navbar';
+@use 'sections/about-me';
+@use 'sections/resume-section';
+@use 'sections/portfolio-section';
+@use 'sections/contact-me';
