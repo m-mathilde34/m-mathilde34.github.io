@@ -1,8 +1,9 @@
 // MY THEME COLOURS
-$my_primary: #F9F5E7;
-$my_secondary: #EDDBC7;
-$my_secondary_light: #F8EAD8;
-$my_tertiary: #A7727D;
+$my_primary: #E9E9E9;
+$my_secondary: #B8B8B8;
+$my_secondary_light: #cdcdcd;
+$my_tertiary: #88BBD6;
+$my_accent: #99D3DF;
 
 // WHITE AND GREY COLOURS
 $white:    #fff;
@@ -21,6 +22,7 @@ $primary:       $my_primary;
 $secondary:     $my_secondary;
 $secondary-light: $my_secondary_light;
 $tertiary: $my_tertiary;
+$accent: $my_accent;
 
 //IMPORT BOOTSTRAP 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
