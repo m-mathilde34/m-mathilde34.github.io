@@ -11855,18 +11855,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: #E9E9E9;
-}
-
 .menu {
-  background-color: #E9E9E9;
   border-bottom: 3px solid #B8B8B8;
 }
 .menu a {
   color: #88BBD6;
   font-family: "Dancing Script", cursive;
-  font-size: 400%;
+  font-size: 300%;
 }
 .menu a:hover {
   color: #88BBD6;
@@ -11884,6 +11879,80 @@ body {
 }
 .menu li .active {
   color: #88BBD6 !important;
+}
+
+.about-me {
+  padding-top: 2.5rem;
+  color: #B8B8B8;
+}
+.about-me .about-me-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.about-me .circular-portrait {
+  overflow: hidden;
+  border-radius: 50%;
+  filter: grayscale(70%);
+  width: 300px;
+  height: 300px;
+}
+.about-me .get-in-touch {
+  width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.about-me .get-in-touch i {
+  font-size: 4em;
+}
+.about-me .get-in-touch i:hover {
+  color: #88BBD6;
+}
+.about-me .about-me-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.about-me .about-me-section .about-me-title {
+  width: 90%;
+}
+.about-me .about-me-section h1 {
+  width: auto;
+  color: #88BBD6;
+  font-family: "Dancing Script", cursive;
+  padding-bottom: 20px;
+}
+.about-me .about-me-section .about-me-vs {
+  display: flex;
+  justify-content: space-around;
+}
+.about-me .about-me-section .fun-section {
+  border-top: 3px dotted #B8B8B8;
+  border-bottom: 3px dotted #B8B8B8;
+  padding-top: 10px;
+}
+.about-me .about-me-section .listening-to {
+  justify-content: space-evenly;
+}
+.about-me .about-me-section .listening-to p {
+  font-style: italic;
+  font-family: serif;
+  padding-top: 5px;
+}
+.about-me .about-me-section .listening-to img {
+  width: 40px;
+  height: auto;
+}
+.about-me .about-me-section .about-me-description {
+  width: 95%;
+  text-align: justify;
+  font-family: serif;
 }
 
 /*# sourceMappingURL=style.css.map */
