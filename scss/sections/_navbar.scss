@@ -1,18 +1,14 @@
 @use '../custom' as *;
 
-body{
-    background-color: $primary;
-}
-
 .menu{
-    background-color: $primary;
+    //background-color: $primary;
     // padding-bottom: 0.5rem;
     border-bottom: 3px solid $secondary;
 
     a{
         color: $tertiary;
         font-family: 'Dancing Script', cursive;
-        font-size: 400%;
+        font-size: 300%;
     }
 
     a:hover{
