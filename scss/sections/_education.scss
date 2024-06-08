@@ -1,0 +1,99 @@
+@use '../custom' as *;
+
+.education {
+
+    font-family: serif;
+    background-color: $primary;
+
+    h2 {
+        font-size: 4em;
+        color: $tertiary;
+        font-family: 'Dancing Script', cursive;
+        padding-bottom: 2vw;
+    }
+
+    .circles {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .circle-icon {
+
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            text-align: center;
+            font-size: 15px;
+            display: flex;
+            height: 10vw;
+            width: 10vw;
+            color: #fff;
+            background-color: $secondary;
+            border: 2px solid #fff;
+            box-shadow: 0 0 5px gray;
+
+            i {
+                font-size: 4vw;
+            }
+
+            i:hover{
+                cursor: url('http://www.w3.org/2000/svg'), auto;
+            }
+
+        }
+
+        .circle {
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .diploma {
+                //border: 2px solid red;
+                color: $secondary;
+                padding: 2vw;
+
+                p {
+                    margin: 0%;
+                    text-align: left;
+                    color: #888888;
+                }
+
+                .course{
+                    font-size: medium;
+                    font-weight: 600;
+                }
+
+                .date{
+                    font-style: oblique;
+                    border-bottom: 2px dotted $secondary;
+                }
+
+                .dissertation {
+                    text-align: justify;
+                }
+
+                .button-container {
+                    text-align: right;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                }
+
+                .btn {
+                    color: #fff;
+                    border-color: #b0ccda;
+                    background-color: #a8bec8;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    text-align: right;
+                }
+
+            }
+            
+        }
+
+    }
+
+    
+
+}
