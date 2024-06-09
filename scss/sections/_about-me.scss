@@ -7,8 +7,6 @@
 //<!--LEFT BLOCK-->
 
 .about-me-image {
-    //width: auto;
-    //border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +29,6 @@
 
     padding-top: 5%;
     padding-bottom: 2%;
-    //border: 2px solid red;
 
     i {
         font-size: 4em;
@@ -45,7 +42,6 @@
  //<!--RIGHT DESCRIPTION BLOCK-->
 
  .about-me-section {
-    //border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +71,6 @@
  }
 
  .listening-to {
-    //border: 2px solid red;
     justify-content: space-evenly;
 
     p {

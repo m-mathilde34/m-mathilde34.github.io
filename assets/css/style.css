@@ -11955,4 +11955,77 @@ textarea.form-control-lg {
   font-family: serif;
 }
 
+.education {
+  font-family: serif;
+  background-color: #E9E9E9;
+}
+.education h2 {
+  font-size: 4em;
+  color: #88BBD6;
+  font-family: "Dancing Script", cursive;
+  padding-bottom: 2vw;
+}
+.education .circles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education .circles .circle-icon {
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  height: 10vw;
+  width: 10vw;
+  color: #fff;
+  background-color: #B8B8B8;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px gray;
+}
+.education .circles .circle-icon i {
+  font-size: 4vw;
+}
+.education .circles .circle-icon i:hover {
+  cursor: url("http://www.w3.org/2000/svg"), auto;
+}
+.education .circles .circle {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.education .circles .circle .diploma {
+  color: #B8B8B8;
+  padding: 2vw;
+}
+.education .circles .circle .diploma p {
+  margin: 0%;
+  text-align: left;
+  color: #888888;
+}
+.education .circles .circle .diploma .course {
+  font-size: medium;
+  font-weight: 600;
+}
+.education .circles .circle .diploma .date {
+  font-style: oblique;
+  border-bottom: 2px dotted #B8B8B8;
+}
+.education .circles .circle .diploma .dissertation {
+  text-align: justify;
+}
+.education .circles .circle .diploma .button-container {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.education .circles .circle .diploma .btn {
+  color: #fff;
+  border-color: #b0ccda;
+  background-color: #a8bec8;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: right;
+}
+
 /*# sourceMappingURL=style.css.map */
