@@ -37,10 +37,6 @@
                 font-size: 4vw;
             }
 
-            i:hover{
-                cursor: url('http://www.w3.org/2000/svg'), auto;
-            }
-
         }
 
         .circle {
@@ -86,6 +82,14 @@
                     background-color: #a8bec8;
                     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                     text-align: right;
+                }
+
+                a {
+                    color: #fff;
+                }
+
+                a:hover {
+                    color: $primary;
                 }
 
             }
