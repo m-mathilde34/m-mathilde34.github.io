@@ -11987,9 +11987,6 @@ textarea.form-control-lg {
 .education .circles .circle-icon i {
   font-size: 4vw;
 }
-.education .circles .circle-icon i:hover {
-  cursor: url("http://www.w3.org/2000/svg"), auto;
-}
 .education .circles .circle {
   display: flex;
   justify-content: space-evenly;
@@ -12026,6 +12023,12 @@ textarea.form-control-lg {
   background-color: #a8bec8;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: right;
+}
+.education .circles .circle .diploma a {
+  color: #fff;
+}
+.education .circles .circle .diploma a:hover {
+  color: #E9E9E9;
 }
 
 /*# sourceMappingURL=style.css.map */
