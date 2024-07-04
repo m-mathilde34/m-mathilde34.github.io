@@ -1,0 +1,52 @@
+@use '../custom' as *;
+
+.projects {
+
+    font-family: serif;
+    background-color: $primary;
+    padding-bottom: 30px;
+
+    h2 {
+        font-size: 4em;
+        color: $tertiary;
+        font-family: 'Dancing Script', cursive;
+        padding-bottom: 2vw;
+    }
+
+    .row {
+
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .card-title {
+            font-weight: 600;
+            color: #888888;
+            text-align: left;
+        }
+
+        .card-text {
+            color: #888888;
+            text-align: left;
+        }
+
+        img {
+            filter: grayscale(50%);
+        }
+
+        .btn {
+            color: #fff;
+            border-color: #a8bec8;
+            background-color: #a8bec8;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: right;
+        }
+
+        a:hover {
+            color: $primary;
+        }
+        
+    }
+
+}
