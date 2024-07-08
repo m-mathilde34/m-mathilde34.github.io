@@ -1,0 +1,64 @@
+@use '../custom' as *;
+
+.contact-me {
+
+    font-family: serif;
+    background-color: $primary;
+    padding-bottom: 30px;
+    text-align: center;
+    
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        //border: 3px solid $tertiary;
+        padding-bottom: 50px;
+
+        h2 {
+            font-size: 4em;
+            color: $tertiary;
+            font-family: 'Dancing Script', cursive;
+            padding-bottom: 2vw;
+        }
+
+    }
+
+    .flex-container {
+        display: inline-block;
+        text-align: left;
+        //border: 3px solid $tertiary;
+    }
+
+    .flexbox-container {
+        font-size: large;
+
+            i {
+                color: $secondary;
+                font-size: x-large;
+            }
+
+            a {
+                color: $secondary;
+            }
+
+    }
+
+    // .icon {
+    //     color: $tertiary;
+    //     background-color: transparent;
+    //     background-position: left center;
+    //     background-size: 1em;
+    //     background-repeat: no-repeat;
+    //     padding-left: 1.3em;
+    //     justify-items: baseline;
+    // }
+
+    // .icon-email {
+    //     background-image: url(https://fontawesome.com/icons/envelope?f=classic&s=solid);
+    // }
+
+    // .icon-github {
+    //     background-image: url(https://fontawesome.com/icons/github?f=brands&s=solid);
+    // }
+
+}
