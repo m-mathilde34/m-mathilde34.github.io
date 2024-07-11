@@ -1,0 +1,46 @@
+@use '../custom' as *;
+
+.footer {
+
+    background-color: white;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    font-family: serif;
+    color: $secondary;
+
+    .credits-block {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+        .credits {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            border: 2px dotted $primary;
+            font-size: small;
+            display: inline-block;
+            text-align: left;
+
+            a {
+                color: $secondary;
+            }
+        }
+
+    }
+
+    .design-info {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            font-style: italic;
+        }
+    }
+
+}
