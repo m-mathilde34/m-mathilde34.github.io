@@ -4,8 +4,7 @@
 
     font-family: serif;
     background-color: $primary;
-    padding-bottom: 5vw;
-    border: 2px solid red;
+    padding-bottom: 3vw;
 
     h2 {
         font-size: 4em;
@@ -48,7 +47,6 @@
             align-items: center;
 
             .diploma {
-                //border: 2px solid red;
                 color: $secondary;
                 padding: 2vw;
 
@@ -101,7 +99,7 @@
     }
 
     .skills {
-        padding-top: 5vw;
+        padding-top: 6vw;
 
         .row {
             padding: 2vw;

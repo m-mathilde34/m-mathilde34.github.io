@@ -11958,8 +11958,7 @@ textarea.form-control-lg {
 .education {
   font-family: serif;
   background-color: #E9E9E9;
-  padding-bottom: 5vw;
-  border: 2px solid red;
+  padding-bottom: 3vw;
 }
 .education h2 {
   font-size: 4em;
@@ -12033,7 +12032,7 @@ textarea.form-control-lg {
   color: #E9E9E9;
 }
 .education .skills {
-  padding-top: 5vw;
+  padding-top: 6vw;
 }
 .education .skills .row {
   padding: 2vw;
