@@ -5,12 +5,12 @@
     font-family: serif;
     background-color: $primary;
     text-align: center;
+    padding-top: 5vw;
     
     .container-fluid {
         display: flex;
         flex-direction: column;
         align-items: center;
-        //border: 3px solid $tertiary;
         padding-bottom: 50px;
 
         h2 {
@@ -25,7 +25,6 @@
     .flex-container {
         display: inline-block;
         text-align: left;
-        //border: 3px solid $tertiary;
     }
 
     .flexbox-container {
@@ -41,23 +40,5 @@
             }
 
     }
-
-    // .icon {
-    //     color: $tertiary;
-    //     background-color: transparent;
-    //     background-position: left center;
-    //     background-size: 1em;
-    //     background-repeat: no-repeat;
-    //     padding-left: 1.3em;
-    //     justify-items: baseline;
-    // }
-
-    // .icon-email {
-    //     background-image: url(https://fontawesome.com/icons/envelope?f=classic&s=solid);
-    // }
-
-    // .icon-github {
-    //     background-image: url(https://fontawesome.com/icons/github?f=brands&s=solid);
-    // }
 
 }

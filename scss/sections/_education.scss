@@ -4,7 +4,8 @@
 
     font-family: serif;
     background-color: $primary;
-    padding-bottom: 100px;
+    padding-bottom: 5vw;
+    border: 2px solid red;
 
     h2 {
         font-size: 4em;
@@ -97,6 +98,14 @@
             
         }
 
+    }
+
+    .skills {
+        padding-top: 5vw;
+
+        .row {
+            padding: 2vw;
+        }
     }
 
     
