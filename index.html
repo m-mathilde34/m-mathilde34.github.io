@@ -6,6 +6,7 @@
     <title>Mathilde's portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/glightbox/css/glightbox.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
     </style>
@@ -103,7 +104,7 @@
                       </div>
                       <div class="col-sm-5">
                         <div class="col-sm-10 listening-to">
-                            <a href="https://www.youtube.com/watch?v=yiAJFa26KKU" alt="Currently listening to..."><img src="images/music.gif"></a></i><p>Currently playing...</p>
+                            <a href="#" class="glightbox" alt="Currently listening to..."><img src="images/music.gif"></a></i><p>Currently playing...</p>
                         </div>
                       </div>
                     </div>
@@ -316,6 +317,16 @@
 </section>
 <!-- FOOTER END -->
 
+<script src="assets/glightbox/js/glightbox.min.js"></script>
+<script type="text/javascript">
+    const lightbox = GLightbox({
+    'href': 'https://www.youtube.com/watch?v=-tW0G9XWaj0',
+    'type': 'video',
+    'source': 'youtube', 
+    'width': 500,
+    'autoplayVideos': true,
+    });
+</script>
 <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>
