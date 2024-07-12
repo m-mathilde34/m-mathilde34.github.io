@@ -12075,7 +12075,6 @@ textarea.form-control-lg {
 .contact-me {
   font-family: serif;
   background-color: #E9E9E9;
-  padding-bottom: 30px;
   text-align: center;
 }
 .contact-me .container-fluid {
@@ -12103,6 +12102,41 @@ textarea.form-control-lg {
 }
 .contact-me .flexbox-container a {
   color: #B8B8B8;
+}
+
+.footer {
+  background-color: white;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  font-family: serif;
+  color: #B8B8B8;
+}
+.footer .credits-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.footer .credits-block .credits {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  border: 2px dotted #E9E9E9;
+  font-size: small;
+  display: inline-block;
+  text-align: left;
+}
+.footer .credits-block .credits a {
+  color: #B8B8B8;
+}
+.footer .design-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer .design-info p {
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */
