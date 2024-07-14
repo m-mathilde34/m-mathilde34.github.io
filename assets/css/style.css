@@ -11958,7 +11958,7 @@ textarea.form-control-lg {
 .education {
   font-family: serif;
   background-color: #E9E9E9;
-  padding-bottom: 100px;
+  padding-bottom: 3vw;
 }
 .education h2 {
   font-size: 4em;
@@ -12031,11 +12031,18 @@ textarea.form-control-lg {
 .education .circles .circle .diploma a:hover {
   color: #E9E9E9;
 }
+.education .skills {
+  padding-top: 6vw;
+}
+.education .skills .row {
+  padding: 2vw;
+}
 
 .projects {
   font-family: serif;
   background-color: #E9E9E9;
-  padding-bottom: 30px;
+  padding-top: 5vw;
+  padding-bottom: 3vw;
 }
 .projects h2 {
   font-size: 4em;
@@ -12076,6 +12083,7 @@ textarea.form-control-lg {
   font-family: serif;
   background-color: #E9E9E9;
   text-align: center;
+  padding-top: 5vw;
 }
 .contact-me .container-fluid {
   display: flex;
@@ -12106,8 +12114,8 @@ textarea.form-control-lg {
 
 .footer {
   background-color: white;
-  padding-bottom: 60px;
-  padding-top: 40px;
+  padding-bottom: 7vw;
+  padding-top: 3vw;
   font-family: serif;
   color: #B8B8B8;
 }

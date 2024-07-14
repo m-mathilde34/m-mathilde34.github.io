@@ -6,6 +6,7 @@
     <title>Mathilde's portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/glightbox/css/glightbox.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
     </style>
@@ -31,7 +32,7 @@
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
+                    <a class="nav-link" href="pdfs/Mathilde Martin CV.pdf" target=”_blank”>Resume <i class="fa-solid fa-download"></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact-me">Contact</a>
@@ -55,9 +56,9 @@
                     <img src="images/profilepic_resized.jpg" class="img-fluid" alt="profile picture">
                 </div>
                 <div class="get-in-touch">
-                    <div class="flexbox-container item-1"><a class="nav-link" href="https://www.linkedin.com/in/m-mathilde34/"><i class="fas fa-brands fa-linkedin"></i></a></div>
-                    <div class="flexbox-container item-2"><a class="nav-link" href="https://github.com/m-mathilde34"><i class="fa-brands fa-github"></i></a></div>
-                    <div class="flexbox-container item-3"><a class="nav-link" href="mailto:m.mathilde34@live.fr"><i class="fa-solid fa-envelope"></i></a></div>
+                    <div class="flexbox-container item-1"><a class="nav-link" target=”_blank” href="https://www.linkedin.com/in/m-mathilde34/"><i class="fas fa-brands fa-linkedin"></i></a></div>
+                    <div class="flexbox-container item-2"><a class="nav-link" target=”_blank” href="https://github.com/m-mathilde34"><i class="fa-brands fa-github"></i></a></div>
+                    <div class="flexbox-container item-3"><a class="nav-link" target=”_blank” href="mailto:m.mathilde34@live.fr"><i class="fa-solid fa-envelope"></i></a></div>
                 </div>
             </div>
 
@@ -103,7 +104,7 @@
                       </div>
                       <div class="col-sm-5">
                         <div class="col-sm-10 listening-to">
-                            <a href="https://www.youtube.com/watch?v=3YXUWWZJXpE" alt="Currently listening to..."><img src="images/music.gif"></a></i><p>Currently playing...</p>
+                            <a href="#" class="glightbox" alt="Currently listening to..."><img src="images/music.gif"></a></i><p>Currently playing...</p>
                         </div>
                       </div>
                     </div>
@@ -136,7 +137,7 @@
                     <div class="circle-icon"><i class="fa-solid fa-user-graduate"></i></div>
                 </div>
                 <div class="col-md-6 diploma">
-                    <p class="course">MSc Computer Science - <i class="fa-regular fa-hourglass-half"></i></p>
+                    <p class="course">MSc Computer Science - Distinction</p>
                     <p class="date">2021 - 2024 @ The University of Bath</p>
                     <br >
                     <p class="dissertation">My dissertation involved the creation of a novel dataset
@@ -145,7 +146,7 @@
                         identifies the provenance of the pictured
                         artefact.’
                     </p>
-                    <div class="button-container"><button type="button" class="btn">Read me</button></div>
+                    <div class="button-container"><button type="button" class="btn"><a href="pdfs/Dissertation.pdf" target=”_blank” alt="MSc in Computer Science - Dissertation">Read me</a></button></div>
                 </div>
             </div>
             <br >
@@ -164,15 +165,15 @@
                         Depictions of the afterlife in early modern drama 
                         and contemporary film.’
                     </p>
-                    <div class="button-container"><button type="button" class="btn"><a href="pdfs/'Born to fly upward'.pdf" alth="Bachelor of Drama dissertion">Read me</a></button></div>
+                    <div class="button-container"><button type="button" class="btn"><a href="pdfs/'Born to fly upward'.pdf" target=”_blank” alt="Bachelor of Drama dissertation">Read me</a></button></div>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container-fluid text-center skills">
-
-    <h2>Skills and Tools</h2>
+        <h2>Skills and Tools</h2>
+        <br >
 
         <div class="container text-center">
             <div class="row">
@@ -221,7 +222,7 @@
                 <div class="card-body">
                 <h5 class="card-title">Artefact Classification</h5>
                 <p class="card-text">Add text here.</p>
-                <a href="https://github.com/m-mathilde34" class="btn btn-primary"><i class="fa-brands fa-github"></i> Code</a>
+                <a target=”_blank” href="https://github.com/m-mathilde34/artefact-classification" class="btn btn-primary"><i class="fa-brands fa-github"></i> Code</a>
                 </div>
             </div>
             </div>
@@ -231,8 +232,8 @@
                 <div class="card-body">
                 <h5 class="card-title">The Traveling Salesman Dilemna</h5>
                 <p class="card-text">Add text here.</p>
-                <a href="https://github.com/m-mathilde34/Traveling-Salesman---Genetic-Algorithm" class="btn btn-primary"><i class="fa-brands fa-github"></i> GA Code</a>
-                <a href="https://github.com/m-mathilde34/Traveling-Salesman-Analysis" class="btn btn-primary"><i class="fa-brands fa-github"></i> Results Analysis</a>
+                <a target=”_blank” href="https://github.com/m-mathilde34/Traveling-Salesman---Genetic-Algorithm" class="btn btn-primary"><i class="fa-brands fa-github"></i> GA Code</a>
+                <a target=”_blank” href="https://github.com/m-mathilde34/Traveling-Salesman-Analysis" class="btn btn-primary"><i class="fa-brands fa-github"></i> Results Analysis</a>
                 </div>
             </div>
             </div>
@@ -240,9 +241,9 @@
             <div class="card">
                 <img src="images/solar-system.jpg" class="card-img-top" alt="Solar System">
                 <div class="card-body">
-                <h5 class="card-title">The Solar System</h5>
+                <h5 class="card-title">The Solar System - In progress <i class="fa-regular fa-hourglass-half"></i></h5>
                 <p class="card-text">Add text here.</p>
-                <a href="https://github.com/m-mathilde34" class="btn btn-primary"><i class="fa-brands fa-github"></i> Code</a>
+                <a target=”_blank” href="https://github.com/m-mathilde34" class="btn btn-primary"><i class="fa-brands fa-github"></i> Code</a>
                 </div>
             </div>
             </div>
@@ -252,7 +253,7 @@
                 <div class="card-body">
                 <h5 class="card-title">Online Portfolio</h5>
                 <p class="card-text">Add text here.</p>
-                <a href="https://github.com/m-mathilde34/portfolio" class="btn btn-primary"><i class="fa-brands fa-github"></i> Code</a>
+                <a target=”_blank” href="https://github.com/m-mathilde34/portfolio" class="btn btn-primary"><i class="fa-brands fa-github"></i> Code</a>
                 </div>
             </div>
             </div>
@@ -270,8 +271,8 @@
 
         <div class="col-md-2 flex-container">
             <div class="flexbox-container item-1"><i class="fa-solid fa-envelope"></i> <a class="icon icon-email" href="mailto:m.mathilde34@live.fr" title="Email to Mathilde" target="_self" hreflang="en"> m.mathilde34@live.fr</a></div>
-            <div class="flexbox-container item-2"><i class="fa-brands fa-github"></i> <a class="icon icon-github" href="https://github.com/m-mathilde34" title="Open Github profile"> GitHub</a></div>
-            <div class="flexbox-container item-3"><i class="fas fa-brands fa-linkedin"></i> <a class="icon icon-linkedin" href="https://www.linkedin.com/in/m-mathilde34/" title="Open LinkedIn profile"> LinkedIn</a></div>
+            <div class="flexbox-container item-2"><i class="fa-brands fa-github"></i> <a class="icon icon-github" target=”_blank” href="https://github.com/m-mathilde34" title="Open Github profile"> GitHub</a></div>
+            <div class="flexbox-container item-3"><i class="fas fa-brands fa-linkedin"></i> <a class="icon icon-linkedin" target=”_blank” href="https://www.linkedin.com/in/m-mathilde34/" title="Open LinkedIn profile"> LinkedIn</a></div>
         </div>
     </div>
 
@@ -289,13 +290,13 @@
             <div class="col-md-6 credits-block">
                 <div class="credits">
                     <div class="row">
-                        <a href="https://www.flaticon.com/free-animated-icons/music" title="music animated icons">Music animated icons created by Freepik - Flaticon</a>
+                        <a target=”_blank” href="https://www.flaticon.com/free-animated-icons/music" title="music animated icons">Music animated icon created by Freepik - Flaticon</a>
                     </div>
                     <div class="row">
                         <a target="_blank" href="https://icons8.com">Icons by Icons8</a>
                     </div>
                     <div class="row">
-                        <a href="https://pixabay.com/">Images from PixaBay</a>
+                        <a target=”_blank” href="https://pixabay.com/">Images from PixaBay</a>
                     </div>
                     <div class="row">                   
                         <p>'Artefact Classification' image taken by Mathilde Martin during a visit to Le Louvre.</p>
@@ -316,6 +317,16 @@
 </section>
 <!-- FOOTER END -->
 
+<script src="assets/glightbox/js/glightbox.min.js"></script>
+<script type="text/javascript">
+    const lightbox = GLightbox({
+    'href': 'https://www.youtube.com/watch?v=-tW0G9XWaj0',
+    'type': 'video',
+    'source': 'youtube', 
+    'width': 500,
+    'autoplayVideos': true,
+    });
+</script>
 <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>
