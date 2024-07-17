@@ -11,7 +11,7 @@
         font-size: 4em;
         color: $tertiary;
         font-family: 'Dancing Script', cursive;
-        padding-bottom: 2vw;
+        padding-bottom: 3vw;
     }
 
     .row {
@@ -25,27 +25,53 @@
             font-weight: 600;
             color: #888888;
             text-align: left;
+            margin-left: 15px;
         }
 
         .card-text {
             color: #888888;
+            text-align: justify;
+            margin: 15px;
+        }
+
+        .tags {
             text-align: left;
+            margin: 15px;
+        }
+
+        .language-tool-tag {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: $tertiary;
+            color: #fff;
+            font-size: small;
+            padding: 3px;
+            border-radius: 4px;
+            font-weight: 600;
         }
 
         img {
             filter: grayscale(50%);
         }
 
-        .btn {
-            color: #fff;
-            border-color: #a8bec8;
-            background-color: #a8bec8;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            text-align: right;
-        }
+        .card-footer {
+            background-color: #fff;
+            border: #fff;
+            padding-bottom: 1vw;
 
-        a:hover {
-            color: $primary;
+            .btn {
+                color: #fff;
+                border-color: #888888;
+                background-color: #888888;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                text-align: right;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+    
+            a:hover {
+                color: $primary;
+            }
+
         }
         
     }

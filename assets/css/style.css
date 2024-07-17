@@ -12048,7 +12048,7 @@ textarea.form-control-lg {
   font-size: 4em;
   color: #88BBD6;
   font-family: "Dancing Script", cursive;
-  padding-bottom: 2vw;
+  padding-bottom: 3vw;
 }
 .projects .row {
   padding-left: 50px;
@@ -12060,22 +12060,44 @@ textarea.form-control-lg {
   font-weight: 600;
   color: #888888;
   text-align: left;
+  margin-left: 15px;
 }
 .projects .row .card-text {
   color: #888888;
+  text-align: justify;
+  margin: 15px;
+}
+.projects .row .tags {
   text-align: left;
+  margin: 15px;
+}
+.projects .row .language-tool-tag {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #88BBD6;
+  color: #fff;
+  font-size: small;
+  padding: 3px;
+  border-radius: 4px;
+  font-weight: 600;
 }
 .projects .row img {
   filter: grayscale(50%);
 }
-.projects .row .btn {
+.projects .row .card-footer {
+  background-color: #fff;
+  border: #fff;
+  padding-bottom: 1vw;
+}
+.projects .row .card-footer .btn {
   color: #fff;
-  border-color: #a8bec8;
-  background-color: #a8bec8;
+  border-color: #888888;
+  background-color: #888888;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: right;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.projects .row a:hover {
+.projects .row .card-footer a:hover {
   color: #E9E9E9;
 }
 
