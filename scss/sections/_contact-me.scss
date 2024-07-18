@@ -3,7 +3,7 @@
 .contact-me {
 
     font-family: serif;
-    background-color: $primary;
+    background-color: $secondary-light;
     text-align: center;
     padding-top: 5vw;
     
@@ -31,12 +31,12 @@
         font-size: large;
 
             i {
-                color: $secondary;
+                color: $accent;
                 font-size: x-large;
             }
 
             a {
-                color: $secondary;
+                color: $accent;
             }
 
     }

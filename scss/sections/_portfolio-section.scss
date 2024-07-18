@@ -3,7 +3,7 @@
 .projects {
 
     font-family: serif;
-    background-color: $primary;
+    background-color: $secondary-light;
     padding-top: 5vw;
     padding-bottom: 3vw;
 
@@ -50,7 +50,7 @@
         }
 
         img {
-            filter: grayscale(50%);
+            filter: grayscale(60%);
         }
 
         .card-footer {

@@ -3,7 +3,7 @@
 .education {
 
     font-family: serif;
-    background-color: $primary;
+    background-color: $secondary-light;
     padding-bottom: 3vw;
 
     h2 {
@@ -78,8 +78,8 @@
 
                 .btn {
                     color: #fff;
-                    border-color: #a8bec8;
-                    background-color: #a8bec8;
+                    border-color: $tertiary;
+                    background-color: $tertiary;
                     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                     text-align: right;
                 }
@@ -89,7 +89,7 @@
                 }
 
                 a:hover {
-                    color: $primary;
+                    color: $secondary-light;
                 }
 
             }
