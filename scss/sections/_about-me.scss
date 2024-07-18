@@ -2,7 +2,7 @@
 
 .about-me {
     padding-top: 2.5rem;
-    color: $my_secondary;
+    color: $accent;
     
 //<!--LEFT BLOCK-->
 
@@ -65,8 +65,8 @@
  }
 
  .fun-section {
-    border-top: 2px dotted $secondary;
-    border-bottom: 2px dotted $secondary;
+    border-top: 2px dotted $accent;
+    border-bottom: 2px dotted $accent;
     padding-top: 10px;
  }
 
@@ -90,7 +90,6 @@
     width: 95%;
     text-align: justify;
     font-family: serif;
-    color: #b4b4ba;
  }
 
  }

@@ -11856,7 +11856,7 @@ textarea.form-control-lg {
   }
 }
 .menu {
-  border-bottom: 3px solid #B8B8B8;
+  border-bottom: 3px solid #888888;
 }
 .menu a {
   color: #8bb3ba;
@@ -11870,12 +11870,12 @@ textarea.form-control-lg {
   padding: 0 0.3rem;
 }
 .menu li a {
-  color: #B8B8B8;
+  color: #888888;
   font-family: "Courier New", Courier, monospace;
   font-size: medium;
   text-transform: uppercase;
   font-weight: 700;
-  border: 2px solid #B8B8B8;
+  border: 2px solid #888888;
 }
 .menu li .active {
   color: #8bb3ba !important;
@@ -11883,7 +11883,7 @@ textarea.form-control-lg {
 
 .about-me {
   padding-top: 2.5rem;
-  color: #B8B8B8;
+  color: #888888;
 }
 .about-me .about-me-image {
   display: flex;
@@ -11933,8 +11933,8 @@ textarea.form-control-lg {
   justify-content: space-around;
 }
 .about-me .about-me-section .fun-section {
-  border-top: 2px dotted #B8B8B8;
-  border-bottom: 2px dotted #B8B8B8;
+  border-top: 2px dotted #888888;
+  border-bottom: 2px dotted #888888;
   padding-top: 10px;
 }
 .about-me .about-me-section .listening-to {
@@ -11953,7 +11953,6 @@ textarea.form-control-lg {
   width: 95%;
   text-align: justify;
   font-family: serif;
-  color: #b4b4ba;
 }
 
 .education {
@@ -12140,7 +12139,7 @@ textarea.form-control-lg {
   padding-bottom: 7vw;
   padding-top: 3vw;
   font-family: serif;
-  color: #B8B8B8;
+  color: #888888;
 }
 .footer .credits-block {
   display: flex;
@@ -12153,13 +12152,13 @@ textarea.form-control-lg {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
-  border: 1px dotted #B8B8B8;
+  border: 1px dotted #888888;
   font-size: small;
   display: inline-block;
   text-align: left;
 }
 .footer .credits-block .credits a {
-  color: #B8B8B8;
+  color: #888888;
 }
 .footer .design-info {
   display: flex;

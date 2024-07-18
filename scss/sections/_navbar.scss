@@ -3,7 +3,7 @@
 .menu{
     //background-color: $primary;
     // padding-bottom: 0.5rem;
-    border-bottom: 3px solid $secondary;
+    border-bottom: 3px solid $accent;
 
     a{
         color: $tertiary;
@@ -19,12 +19,12 @@
         padding: 0 0.3rem;
         
         a{
-            color: $secondary;
+            color: $accent;
             font-family: 'Courier New', Courier, monospace;
             font-size: medium;
             text-transform: uppercase;
             font-weight: 700;
-            border: 2px solid $secondary;
+            border: 2px solid $accent;
         }
 
         .active{

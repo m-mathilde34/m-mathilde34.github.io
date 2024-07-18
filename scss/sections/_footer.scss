@@ -6,7 +6,7 @@
     padding-bottom: 7vw;
     padding-top: 3vw;
     font-family: serif;
-    color: $secondary;
+    color: $accent;
 
     .credits-block {
 
@@ -20,13 +20,13 @@
             padding-left: 10px;
             padding-right: 10px;
             padding-top: 10px;
-            border: 1px dotted $secondary;
+            border: 1px dotted $accent;
             font-size: small;
             display: inline-block;
             text-align: left;
 
             a {
-                color: $secondary;
+                color: $accent;
             }
         }
 
