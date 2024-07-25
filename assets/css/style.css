@@ -11895,7 +11895,7 @@ textarea.form-control-lg {
 .about-me .circular-portrait {
   overflow: hidden;
   border-radius: 50%;
-  filter: grayscale(70%);
+  filter: grayscale(60%);
   width: 300px;
   height: 300px;
 }
@@ -12122,6 +12122,7 @@ textarea.form-control-lg {
 .contact-me .flex-container {
   display: inline-block;
   text-align: left;
+  width: auto;
 }
 .contact-me .flexbox-container {
   font-size: large;
