@@ -11895,7 +11895,7 @@ textarea.form-control-lg {
 .about-me .circular-portrait {
   overflow: hidden;
   border-radius: 50%;
-  filter: grayscale(60%);
+  filter: grayscale(50%);
   width: 300px;
   height: 300px;
 }
