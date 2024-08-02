@@ -34,12 +34,27 @@
             margin: 15px;
         }
 
+        .tags-background {
+            background-color: $secondary-light;
+            padding: 5px;
+        }
+
         .tags {
             text-align: left;
             margin: 15px;
         }
 
         .language-tool-tag {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: $my_accent;
+            color: #fff;
+            font-size: small;
+            padding: 4px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .skill-tag {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             background-color: $tertiary;
             color: #fff;
@@ -60,8 +75,8 @@
 
             .btn {
                 color: #fff;
-                border-color: #888888;
-                background-color: #888888;
+                border-color: $my_accent;
+                background-color: $my_accent;
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 text-align: right;
                 padding-left: 15px;

@@ -12067,11 +12067,24 @@ textarea.form-control-lg {
   text-align: justify;
   margin: 15px;
 }
+.projects .row .tags-background {
+  background-color: #cdcdcd;
+  padding: 5px;
+}
 .projects .row .tags {
   text-align: left;
   margin: 15px;
 }
 .projects .row .language-tool-tag {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #888888;
+  color: #fff;
+  font-size: small;
+  padding: 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.projects .row .skill-tag {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: #8bb3ba;
   color: #fff;
