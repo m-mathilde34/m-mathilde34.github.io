@@ -12083,6 +12083,7 @@ textarea.form-control-lg {
   padding: 4px;
   border-radius: 4px;
   font-weight: 600;
+  line-height: 20pt;
 }
 .projects .row .skill-tag {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -12092,6 +12093,7 @@ textarea.form-control-lg {
   padding: 3px;
   border-radius: 4px;
   font-weight: 600;
+  line-height: 20pt;
 }
 .projects .row img {
   filter: grayscale(60%);
