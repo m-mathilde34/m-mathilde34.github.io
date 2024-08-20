@@ -11939,6 +11939,7 @@ textarea.form-control-lg {
 }
 .about-me .about-me-section .listening-to {
   justify-content: space-evenly;
+  margin: 10px;
 }
 .about-me .about-me-section .listening-to p {
   font-style: italic;
@@ -12111,6 +12112,7 @@ textarea.form-control-lg {
   text-align: right;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 1vw;
 }
 .projects .row .card-footer a:hover {
   color: #E9E9E9;
